@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Property Finder - Kigali</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h2>Find Your Property in Kigali 🏡</h2>
+
+  <div>
+    <label>Location: <input id="location" value="Kacyiru"></label><br>
+    <label>Type: 
+      <select id="type">
+        <option value="apartment">Apartment</option>
+        <option value="house">House</option>
+      </select>
+    </label><br>
+    <label>Bedrooms: <input id="bedrooms" type="number" value="2"></label><br>
+    <label>Max Budget (RWF): <input id="budget" type="number" value="500000"></label><br>
+    <button onclick="findProperties()">Search</button>
+  </div>
+
+  <hr>
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
