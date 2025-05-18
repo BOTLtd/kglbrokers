@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Modern 2BR Apartment",
+    "location": "Kacyiru",
+    "type": "apartment",
+    "bedrooms": 2,
+    "price": 450000,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "title": "Spacious 3BR House",
+    "location": "Kibagabaga",
+    "type": "house",
+    "bedrooms": 3,
+    "price": 600000,
+    "image": "https://via.placeholder.com/150"
+  }
+]
